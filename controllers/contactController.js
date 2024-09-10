@@ -5,7 +5,7 @@ const submitContactForm = async (req, res) => {
   // Set CORS headers to allow requests from your frontend
   res.setHeader(
     "Access-Control-Allow-Origin",
-    "https://sneakerhead-sneakerrank-dy24.vercel.app"
+    "https://sneaker-head-frontend.vercel.app"
   ); // Your frontend URL
   res.setHeader("Access-Control-Allow-Methods", "GET,POST,PUT,DELETE,OPTIONS");
   res.setHeader("Access-Control-Allow-Headers", "Content-Type, Authorization");
