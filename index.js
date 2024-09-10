@@ -17,7 +17,7 @@ connectDB();
 // Middleware
 app.use(express.json());
 app.use(cors({
-  origin: 'http://localhost:3000', // Allow requests from your frontend
+  origin: 'http://localhost:3000' 'https://sneaker-head-frontend.vercel.app',// Allow requests from your frontend
   methods: ['GET', 'POST', 'PUT', 'DELETE'], // Specify allowed methods
   credentials: true, // If you're using cookies/auth headers
   allowedHeaders: 'Content-Type,Authorization',
